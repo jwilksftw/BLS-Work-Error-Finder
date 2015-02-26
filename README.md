@@ -3,8 +3,7 @@ Before I created this program, analysts working on the Occupational Outlook Hand
 to search for errors (incorrect data, incorrect or missing boilerplate language, language not match the 
 BLS style guide, etc) manually. This took a tremendous amount of time, given the 334 occupatinal profiles, 
 and resulted in an error checklist that had well over 80 items on it. Due to the size of the checklist, 
-errors would be missed as there was too much for a human to check. This program was able to eliminate 
-approximately 50 of the items on said checklist.
+errors would be missed. This program was able to eliminate approximately 50 of the items on said checklist.
 
 The system of programs used to check for errors first employs oohlivechecker.py to pull the most recent text from 
 bls.gov/ooh. The text is placed in respective files to match each profile. Then, oohlivehandsearch.py is used
