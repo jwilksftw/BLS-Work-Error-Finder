@@ -1,6 +1,6 @@
 # BLS-Work-Error-Finder
 Before I created this program, analysts working on the Occupational Outlook Handbook (http://www.bls.gov/ooh/) had
-to search for errors(incorrect data, incorrect or missing boilerplate language, language not match the 
+to search for errors (incorrect data, incorrect or missing boilerplate language, language not match the 
 BLS style guide) manually. This took a tremendous amount of time, given the 334 occupatinal profiles, 
 and resulted in an error checklist that had well over 80 items on it. Due to the size of the checklist, 
 errors would be missed as there was too much for a human to check. This program was able to eliminate 
