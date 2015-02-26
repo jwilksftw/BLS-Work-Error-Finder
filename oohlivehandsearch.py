@@ -23,7 +23,7 @@ for file in glob.glob('*.txt'):
         #patFinder1 = re.compile('little or no change|decline\s\d+\s+|grow\s\d+\s+percent from 2012 to 2022,.*?occupations')
         #patFinder1 = re.compile('.*? held about .*? jobs in 2012.')
         #patFinder1 = re.compile('\w+  \w+|\d+  \d+')
-        patFinder1 = re.compile('  ')
+        patFinder1 = re.compile('ENTER THE TEXT YOU SEEK')
 
         findPat1 = re.search(patFinder1, contents)
         #print(findPat1.group())
