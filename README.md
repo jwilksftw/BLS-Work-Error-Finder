@@ -1,7 +1,7 @@
 # BLS-Work-Error-Finder
 Before I created this program, analysts working on the Occupational Outlook Handbook (http://www.bls.gov/ooh/) had
 to search for errors (incorrect data, incorrect or missing boilerplate language, language not match the 
-BLS style guide, etc) manually. This took a tremendous amount of time, given the 334 occupatinal profiles, 
+BLS style guide, etc) manually. This took a tremendous amount of time, given the 334 occupational profiles, 
 and resulted in an error checklist that had well over 80 items on it. Due to the size of the checklist and human fallibility, errors would be missed. This program was able to eliminate approximately 50 of the items off said checklist.
 
 The system of programs used to check for errors first employs oohlivechecker.py to pull the most recent text from 
