@@ -6,6 +6,6 @@ and resulted in an error checklist that had well over 80 items on it. Due to the
 
 The system of programs used to check for errors first employs oohlivechecker.py to pull the most recent text from 
 bls.gov/ooh. The text is placed in respective files to match each profile. Then, oohlivehandsearch.py is used
-to find the errors. The user inputs the text or phrases they are looking for on line 26. 
+to find the errors. The user inputs the text or phrase they are looking for on line 26. 
 Regular expressions can be used in this search. Also, if the user is looking for cases in which expected
 text is missing, they can use line 91 to enter in the word or phrase they are searching for.
